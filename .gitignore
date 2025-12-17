@@ -1,0 +1,59 @@
+# Git Ignore Configuration
+# Prevents accidental commits of sensitive files
+
+# Environment variables (CRITICAL - contains API keys)
+.env
+.env.local
+.env.*.local
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints
+*.ipynb
+
+# Data files (optional - remove if you want to commit processed data)
+# processed_data/
+# raw_dataset/
+
+# Temporary directories
+temp_sim_data/
+*.tmp
+.cache/

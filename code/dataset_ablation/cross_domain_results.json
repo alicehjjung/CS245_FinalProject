@@ -1,0 +1,182 @@
+{
+    "yelp_yelp": {
+        "target": "yelp",
+        "sources": [
+            "yelp"
+        ],
+        "metrics": {
+            "type": "simulation",
+            "metrics": {
+                "preference_estimation": 0.8654999999999996,
+                "review_generation": 0.8612414446895996,
+                "overall_quality": 0.8633707223447996
+            },
+            "data_info": {
+                "evaluated_count": 400,
+                "original_simulation_count": 400,
+                "original_ground_truth_count": 400
+            }
+        }
+    },
+    "yelp_yelp_amazon": {
+        "target": "yelp",
+        "sources": [
+            "yelp",
+            "amazon"
+        ],
+        "metrics": {
+            "type": "simulation",
+            "metrics": {
+                "preference_estimation": 0.8654999999999996,
+                "review_generation": 0.8649609345687822,
+                "overall_quality": 0.8652304672843909
+            },
+            "data_info": {
+                "evaluated_count": 400,
+                "original_simulation_count": 400,
+                "original_ground_truth_count": 400
+            }
+        }
+    },
+    "yelp_yelp_amazon_goodreads": {
+        "target": "yelp",
+        "sources": [
+            "yelp",
+            "amazon",
+            "goodreads"
+        ],
+        "metrics": {
+            "type": "simulation",
+            "metrics": {
+                "preference_estimation": 0.8659999999999997,
+                "review_generation": 0.8606132254594426,
+                "overall_quality": 0.8633066127297211
+            },
+            "data_info": {
+                "evaluated_count": 400,
+                "original_simulation_count": 400,
+                "original_ground_truth_count": 400
+            }
+        }
+    },
+    "amazon_amazon": {
+        "target": "amazon",
+        "sources": [
+            "amazon"
+        ],
+        "metrics": {
+            "type": "simulation",
+            "metrics": {
+                "preference_estimation": 0.8637499999999998,
+                "review_generation": 0.8461816138794451,
+                "overall_quality": 0.8549658069397225
+            },
+            "data_info": {
+                "evaluated_count": 400,
+                "original_simulation_count": 400,
+                "original_ground_truth_count": 400
+            }
+        }
+    },
+    "amazon_amazon_yelp": {
+        "target": "amazon",
+        "sources": [
+            "amazon",
+            "yelp"
+        ],
+        "metrics": {
+            "type": "simulation",
+            "metrics": {
+                "preference_estimation": 0.8637499999999998,
+                "review_generation": 0.8493742351175935,
+                "overall_quality": 0.8565621175587966
+            },
+            "data_info": {
+                "evaluated_count": 400,
+                "original_simulation_count": 400,
+                "original_ground_truth_count": 400
+            }
+        }
+    },
+    "amazon_amazon_yelp_goodreads": {
+        "target": "amazon",
+        "sources": [
+            "amazon",
+            "yelp",
+            "goodreads"
+        ],
+        "metrics": {
+            "type": "simulation",
+            "metrics": {
+                "preference_estimation": 0.8637499999999998,
+                "review_generation": 0.8492668300038735,
+                "overall_quality": 0.8565084150019366
+            },
+            "data_info": {
+                "evaluated_count": 400,
+                "original_simulation_count": 400,
+                "original_ground_truth_count": 400
+            }
+        }
+    },
+    "goodreads_goodreads": {
+        "target": "goodreads",
+        "sources": [
+            "goodreads"
+        ],
+        "metrics": {
+            "type": "simulation",
+            "metrics": {
+                "preference_estimation": 0.8369999999999996,
+                "review_generation": 0.8185939740632044,
+                "overall_quality": 0.827796987031602
+            },
+            "data_info": {
+                "evaluated_count": 400,
+                "original_simulation_count": 400,
+                "original_ground_truth_count": 400
+            }
+        }
+    },
+    "goodreads_goodreads_amazon": {
+        "target": "goodreads",
+        "sources": [
+            "goodreads",
+            "amazon"
+        ],
+        "metrics": {
+            "type": "simulation",
+            "metrics": {
+                "preference_estimation": 0.8369999999999996,
+                "review_generation": 0.8197144935880626,
+                "overall_quality": 0.8283572467940311
+            },
+            "data_info": {
+                "evaluated_count": 400,
+                "original_simulation_count": 400,
+                "original_ground_truth_count": 400
+            }
+        }
+    },
+    "goodreads_goodreads_amazon_yelp": {
+        "target": "goodreads",
+        "sources": [
+            "goodreads",
+            "amazon",
+            "yelp"
+        ],
+        "metrics": {
+            "type": "simulation",
+            "metrics": {
+                "preference_estimation": 0.8369999999999996,
+                "review_generation": 0.8172296799187524,
+                "overall_quality": 0.827114839959376
+            },
+            "data_info": {
+                "evaluated_count": 400,
+                "original_simulation_count": 400,
+                "original_ground_truth_count": 400
+            }
+        }
+    }
+}
