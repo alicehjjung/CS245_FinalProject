@@ -2,6 +2,8 @@
 
 Complete implementation of user behavior simulation agents for the Agent Society Challenge.
 
+**Project Report**: [PDF](https://drive.google.com/file/d/1pxWwJre1lVOu_b4b2KOZHqVrlZ24Y-Vp/view?usp=sharing)
+
 ## 📁 Folder Structure
 
 ```
